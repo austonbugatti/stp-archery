@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(214,232,184);
+}
+
+header {
+  background-color: rgb(82,62,51);
+  color: white;
+  padding: .5rem;
+}
+
+footer {
+  background-color: rgb(82,62,51);
+  color: white;
+}
+
+nav {
+  border: none;
+  border-color: rgb(147,134,125);
+  background-color: rgb(147,134,125);
+  font-weight: bold;
+  padding: .5rem;
+  align-items: center;
+  font-family: monospace;
+  font-size: 1.5rem;
+  margin-top: 0rem;
+}
+
+nav a:hover {
+  background-color: white;
+}
+
+a {
+  padding: .4rem;
+}
+
+.foot {
+  padding: .5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bold {
+  font-weight: bold;
+}
