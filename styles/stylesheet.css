@@ -29,6 +29,14 @@ nav a:hover {
   background-color: white;
 }
 
+img {
+  max-width: 100%;
+}
+    
+.nav-pills>li.active>a {
+      background-color: magenta;
+    }
+
 a {
   padding: .4rem;
 }
